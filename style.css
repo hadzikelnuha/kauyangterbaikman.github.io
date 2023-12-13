@@ -1,0 +1,87 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.navbar-container {
+    background-color: rgb(44, 43, 40);
+    widht: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: rgb(188, 89, 188);
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(143, 72, 114);
+    transition: .1s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 8px;
+}
+
+.a-navbar {
+    color: rgb(243, 188, 231);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.content-container {
+    background-color: rgb(227, 169, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: rgb(253, 253, 249);
+    color: rgb(73, 50, 16);
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-content {
+    width : 300px;
+    height: 400px; 
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: rgb(80, 66, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    color: rgb(246, 240, 244);
+}
